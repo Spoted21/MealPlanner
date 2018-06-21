@@ -3,5 +3,7 @@ The `mealPicker` function randomly selects meals and snack for a 7 day period. I
 
 ## Example
 meals <- read.csv("./ListOfMeals.csv",stringsAsFactors = FALSE)
+
 source("MealPlannerFunc.R")
+
 mealPicker()

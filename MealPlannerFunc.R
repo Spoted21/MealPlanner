@@ -1,10 +1,4 @@
 
-
-# Pick meals for 1 week timeframe
-setwd("./Documents/R/MealPlanner/")
-meals <- read.csv("./ListOfMeals.csv",stringsAsFactors = FALSE)
-
-
 mealPicker <- function() {
 number=7
 dinner <- meals[meals$Type=="dinner" ,]$Meal
